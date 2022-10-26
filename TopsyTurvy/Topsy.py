@@ -169,8 +169,7 @@ while running:
 
     # for loops
     
-        
-
+       
     #calling the functions
     show_coin(coin_x, coin_y)
     player(player_x, player_y)
