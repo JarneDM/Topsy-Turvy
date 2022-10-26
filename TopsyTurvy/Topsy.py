@@ -20,7 +20,7 @@ playerY_change = 0
 
 #coin  
 coin_img = pygame.image.load('TopsyTurvy\data\coin.png')
-coin_y = 200
+coin_y = 250
 coin_x = random.randint(0,700)
 
 #enemy
@@ -137,7 +137,7 @@ while running:
         enemy_x = random.randint(0, 700)
         enemy_y = 0
         coin_x = enemy_x 
-        coin_y = random.randint(50, 500)
+        coin_y = random.randint(150, 500)
 
     collision_player_enemy = isCollision(player_x, player_y, enemy_x, enemy_y) # if enemy collide with player
     if collision_player_enemy:
