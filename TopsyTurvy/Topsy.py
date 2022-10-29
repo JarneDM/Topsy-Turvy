@@ -78,7 +78,7 @@ running = True
 while running:
 
     #color off the screen
-    screen.fill((230, 255, 255))
+    screen.fill((4, 7, 32))
 
     
 
