@@ -1,5 +1,5 @@
 # Topsy-Turvy
-**2D game in pygame where the controles are the other way around**
+**2D game in pygame where the controls are the other way around**
 
 
 ![game](https://user-images.githubusercontent.com/99100535/198111931-cdae46c4-dec1-445b-98fe-e6923724d047.png)
