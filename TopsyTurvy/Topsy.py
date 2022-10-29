@@ -99,6 +99,9 @@ while running:
             if event.key == pygame.K_w:
                 playerY_change = 0.06
                 
+            if event.key == pygame.K_ESCAPE:
+                running = False
+                
 
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_a or event.key == pygame.K_d:
