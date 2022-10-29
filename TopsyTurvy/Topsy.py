@@ -100,9 +100,6 @@ while running:
                 playerY_change = 0.06
                 
 
-            if event.key == pygame.K_e:
-                score_value = score_value +1
-
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_a or event.key == pygame.K_d:
                  playerX_change = 0
