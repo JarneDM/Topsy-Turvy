@@ -102,6 +102,16 @@ while running:
             if event.key == pygame.K_ESCAPE:
                 running = False
                 
+            if event.key == pygame.K_r: # resets the game
+                score_value = 0
+                distance = 50
+                player_x = random.randint(0, 700) 
+                player_y = random.randint(50, 500)
+                enemy_x = random.randint(0, 700)
+                enemy_y = 0
+                coin_x = enemy_x 
+                coin_y = random.randint(150, 500)
+                
 
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_a or event.key == pygame.K_d:
